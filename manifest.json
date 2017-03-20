@@ -1,0 +1,17 @@
+{
+  "name": "Bitbucket Diff Minimizer",
+  "description": "Add buttons to minimize Bitbucket file diffs",
+  "version": "0.5",
+  "permissions": [
+    "https://bitbucket.org/*/*/pull-requests/*/*",
+    "tabs"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["jquery-3.2.0.min.js", "injector.js"]
+  },
+  "browser_action": {
+    "default_title": "Make this page red"
+  },
+  "manifest_version": 2
+}
